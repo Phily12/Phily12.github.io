@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Weijie Shen</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
-      margin: 50px auto;
-      line-height: 1.6;
-      color: #222;
-    }
-    h1 {
-      font-size: 42px;
-      margin-bottom: 5px;
-    }
-    h2 {
-      margin-top: 35px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
-    }
-    a {
-      color: #0969da;
-      text-decoration: none;
-    }
-  </style>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name</title>
+    <meta
+      name="description"
+      content="Personal academic homepage for an incoming master's student at the University of Pennsylvania."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#about">Your Name</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Awards</a>
+          <a href="#cv">CV</a>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <h1>Weijie Shen</h1>
+    <main class="page-shell">
+      <aside class="profile" aria-label="Profile">
+        <img
+          class="profile-photo"
+          src="assets/profile-placeholder.png"
+          alt="Profile photo placeholder"
+        />
+        <h1>Your Name</h1>
+        <p class="role">Incoming Master's Student</p>
+        <p class="affiliation">University of Pennsylvania</p>
 
-  <p>
-    Incoming M.S. student in Electrical Engineering at the University of Pennsylvania.
-    My interests include AI systems, cloud computing, LLM inference, autoscaling,
-    and intelligent data management.
-  </p>
+        <section class="interests" aria-labelledby="interests-title">
+          <h2 id="interests-title">Research Interests</h2>
+          <ul>
+            <li>Large Language Models</li>
+            <li>AI Systems</li>
+            <li>LLM Reasoning</li>
+            <li>Agentic AI</li>
+            <li>Efficient LLM Inference</li>
+            <li>Green AI</li>
+            <li>Time-Series Forecasting</li>
+          </ul>
+        </section>
+      </aside>
 
-  <h2>Education</h2>
-  <ul>
-    <li><b>University of Pennsylvania</b>, M.S. in Electrical Engineering, 2026–</li>
-    <li><b>Beijing University of Technology</b>, B.Eng. in Internet of Things Engineering</li>
-  </ul>
+      <section class="content" aria-label="Main content">
+        <section id="about" class="content-section">
+          <h2>About</h2>
+          <p>
+            I am an incoming master's student at the
+            <a
+              href="https://www.seas.upenn.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >School of Engineering and Applied Science (SEAS)</a
+            >, University of Pennsylvania.
+          </p>
+          <p>
+            I received my B.Eng. degree in Internet of Things Engineering from
+            Beijing University of Technology and University College Dublin in
+            2026.
+          </p>
+          <p>
+            My current research interests lie in large language models and AI
+            systems, with a focus on LLM reasoning, agentic AI, efficient LLM
+            inference, and Green AI. I am also interested in time-series
+            forecasting and its applications in intelligent system optimization.
+          </p>
+        </section>
 
-  <h2>Research Interests</h2>
-  <ul>
-    <li>AI Systems</li>
-    <li>Cloud and Serverless Computing</li>
-    <li>LLM Inference Systems</li>
-    <li>Green Autoscaling</li>
-    <li>AI Agents for Data Management</li>
-  </ul>
+        <section id="publications" class="content-section">
+          <div class="section-heading">
+            <h2>Selected Research Work</h2>
+            <a href="#publications" aria-label="View all publications"
+              >View All &rarr;</a
+            >
+          </div>
+          <p class="placeholder">To be updated.</p>
+        </section>
 
-  <h2>Projects</h2>
-  <p>
-    <b>Green Autoscaling for LLM Inference in a VM-Based Mini-Cloud</b><br>
-    Built a predictive autoscaling framework for Qwen LLM inference using Kubernetes,
-    Knative, Prometheus, and a Quantile Transformer.
-  </p>
+        <section id="awards" class="content-section">
+          <h2>Awards</h2>
+          <p class="placeholder">To be updated.</p>
+        </section>
 
-  <h2>Publications</h2>
-  <p>Coming soon.</p>
+        <section id="cv" class="content-section">
+          <h2>CV</h2>
+          <p class="placeholder">To be updated.</p>
+        </section>
 
-  <h2>Contact</h2>
-  <p>
-    GitHub: <a href="https://github.com/Phily12">Phily12</a><br>
-    Email: your-email@example.com
-  </p>
-</body>
+        <section id="news" class="content-section">
+          <h2>News</h2>
+          <p class="placeholder">To be updated.</p>
+        </section>
+
+        <footer class="site-footer">
+          <p>Last updated: June 13, 2026</p>
+        </footer>
+      </section>
+    </main>
+  </body>
 </html>
