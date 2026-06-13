@@ -1,0 +1,70 @@
+[site]
+title = "Your Name"
+description = "Personal academic homepage."
+favicon = "/favicon.svg"
+last_updated = "June 14, 2026"
+
+[author]
+name = "Your Name"
+title = "Incoming Master's Student"
+institution = "University of Pennsylvania"
+avatar = "/photo.png"
+
+[social]
+# Add links here when ready, for example:
+# email = "your.email@example.com"
+# github = "https://github.com/your-username"
+# linkedin = "https://www.linkedin.com/in/your-profile"
+# google_scholar = "https://scholar.google.com/citations?user=..."
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
+
+[i18n.labels]
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

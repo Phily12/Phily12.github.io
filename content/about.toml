@@ -1,0 +1,32 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = [
+  "Large Language Models",
+  "AI Systems",
+  "LLM Reasoning",
+  "Agentic AI",
+  "Efficient LLM Inference",
+  "Green AI",
+  "Time-Series Forecasting"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "Selected Publications"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"
