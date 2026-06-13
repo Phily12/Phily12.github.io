@@ -54,9 +54,9 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <div className="lg:col-span-1">
+    <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 bg-background min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-[360px_1fr] gap-12 lg:gap-16 xl:gap-20">
+        <div>
           <Profile
             author={data.author}
             social={data.social}
@@ -65,7 +65,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           />
         </div>
 
-        <div className="lg:col-span-2 space-y-8">
+        <div className="space-y-10">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {

@@ -172,7 +172,7 @@ export default function Navigation({
                 : 'bg-transparent'
             )}
           >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[1580px] mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex justify-between items-center h-16 lg:h-20">
                 <motion.div
                   whileHover={{ scale: 1.05 }}
@@ -181,7 +181,7 @@ export default function Navigation({
                 >
                   <Link
                     href="/"
-                    className="text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200"
+                    className="text-3xl lg:text-[2.15rem] font-serif font-semibold text-primary hover:text-accent transition-colors duration-200"
                   >
                     {effectiveSiteTitle}
                   </Link>
@@ -229,7 +229,7 @@ export default function Navigation({
                             onClick={() => enableOnePageMode && setActiveHash(`#${item.target}`)}
                             onMouseEnter={() => setHoveredHref(href)}
                             className={cn(
-                              'relative px-3 py-2 text-sm font-medium rounded-lg transition-colors duration-150',
+                              'relative px-4 py-3 text-base font-medium rounded-lg transition-colors duration-150',
                               isActive
                                 ? 'text-primary'
                                 : hoveredHref === href

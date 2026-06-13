@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am an incoming master's student at the [School of Engineering and Applied Science (SEAS)](https://www.seas.upenn.edu/), University of Pennsylvania.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I received my B.Eng. degree in Internet of Things Engineering from Beijing University of Technology and University College Dublin in 2026.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My current research interests lie in large language models and AI systems, with a focus on LLM reasoning, agentic AI, efficient LLM inference, and Green AI. I am also interested in time-series forecasting and its applications in intelligent system optimization.

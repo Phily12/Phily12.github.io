@@ -23,7 +23,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
             transition={{ duration: 0.6, delay: 0.4 }}
         >
             <div className="flex items-center justify-between mb-4">
-                <h2 className="text-2xl font-serif font-bold text-primary">{resolvedTitle}</h2>
+                <h2 className="text-3xl font-serif font-bold text-primary">{resolvedTitle}</h2>
                 <Link
                     href={enableOnePageMode ? "/#publications" : "/publications"}
                     prefetch={true}
