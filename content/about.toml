@@ -3,8 +3,6 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Large Language Models",
-  "AI Systems",
   "LLM Reasoning",
   "Agentic AI",
   "Efficient LLM Inference",
